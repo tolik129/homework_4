@@ -14,10 +14,14 @@
         </th>
         <td>
 
-            <select>
-                <option value="<?php echo @get_post_meta($post->ID, 'meta_b', true); ?>">Пункт 1</option>
 
+            <select multiple >
+                <option>пункт 1</option>
+                <option>пункт 2</option>
+                <option>пункт 3</option>
+                <option>пункт 4</option>
             </select>
+
 
         </td>
     </tr>
